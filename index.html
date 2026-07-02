@@ -12,7 +12,8 @@
 <link rel="icon" href="assets/imgs/logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Kosugi+Maru&family=Yomogi&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Kosugi+Maru&family=Yomogi&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+<noscript><link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Kosugi+Maru&family=Yomogi&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet" /></noscript>
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -20,7 +21,7 @@
 <!-- ===== Header ===== -->
 <header class="site-header" id="top">
   <a class="brand" href="#top">
-    <img src="assets/imgs/logo.png" alt="キセキの十月十日 ロゴ" />
+    <img src="assets/imgs/logo.png" alt="キセキの十月十日 ロゴ" width="40" height="40" decoding="async" />
     <span>キセキの十月十日</span>
   </a>
   <nav class="nav">
@@ -40,7 +41,7 @@
   <div class="hero-glow"></div>
   <div class="hero-inner">
     <p class="hero-eyebrow">とつきとおか</p>
-    <img class="hero-logo" src="assets/imgs/logo.png" alt="キセキの十月十日 ロゴ" />
+    <img class="hero-logo" src="assets/imgs/logo.png" alt="キセキの十月十日 ロゴ" width="878" height="878" decoding="async" fetchpriority="high" />
     <h1 class="hero-title">キセキの十月十日</h1>
     <p class="hero-sub">〜 生きるを大切に 〜</p>
     <p class="hero-lead">
@@ -197,11 +198,12 @@
           <dd>ママの働き方応援隊 神戸南校・神戸東校</dd>
         </div>
       </dl>
-      <div class="map-embed">
-        <iframe
-          title="会場地図：神戸ハーバーランド 浜の手 デュオドーム"
-          src="https://www.google.com/maps?q=%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9D%B1%E5%B7%9D%E5%B4%8E%E7%94%BA1-2-3&output=embed"
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      <div class="map-embed" data-map-src="https://www.google.com/maps?q=%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9D%B1%E5%B7%9D%E5%B4%8E%E7%94%BA1-2-3&output=embed">
+        <div class="map-placeholder">
+          <p class="map-placeholder-title">神戸ハーバーランド 浜の手 デュオドーム</p>
+          <p class="map-placeholder-sub">神戸市中央区東川崎町1-2-3</p>
+          <button type="button" class="map-load-btn">地図を表示する</button>
+        </div>
         <a class="map-cta" href="https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9D%B1%E5%B7%9D%E5%B4%8E%E7%94%BA1-2-3" target="_blank" rel="noopener">経路を調べる →</a>
       </div>
     </div>
@@ -313,7 +315,7 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-brand">
-      <img src="assets/imgs/logo.png" alt="キセキの十月十日 ロゴ" />
+      <img src="assets/imgs/logo.png" alt="キセキの十月十日 ロゴ" width="40" height="40" loading="lazy" decoding="async" />
       <div>
         <p class="f-title">キセキの十月十日（とつきとおか）</p>
         <p class="f-sub">〜生きるを大切に〜 ｜ 2026.10.10(土) 神戸ハーバーランド デュオドーム</p>
